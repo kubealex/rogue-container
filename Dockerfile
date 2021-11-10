@@ -58,7 +58,5 @@ EXPOSE 80 443
 # Copying the entrypoint script to implement all the configuration in your container
 ADD docker-entrypoint.sh /usr/
 
-ENTRYPOINT ["/usr/local/bin/nmap -v scanme.nmap.org"]
-
 # To start apache in the background as a service
 CMD ["httpd", "-DFOREGROUND"]
