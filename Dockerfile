@@ -18,4 +18,4 @@ EXPOSE 80 443
 ADD docker-entrypoint.sh /usr/
 
 # To start apache in the background as a service
-CMD ["sleep", "100000000000"]
+CMD ["sleep", "10000000000"]
