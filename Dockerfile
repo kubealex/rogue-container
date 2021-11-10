@@ -6,7 +6,7 @@
 FROM alpine:3.7
 
 # Meta-data
-LABEL maintainer="kubealex <al.rossi87@gmail.com>
+LABEL maintainer="kubealex <al.rossi87@gmail.com>"
 # Install the required resources for the apache container to run
 RUN apk add --no-cache \     
 	    bash \
