@@ -3,7 +3,7 @@
 #PHP webserver based on Alpine
 
 # Using alpine linux as the base image
-FROM alpine:3.7
+FROM docker.io/alpine:3.7
 
 # Meta-data
 LABEL maintainer="kubealex <al.rossi87@gmail.com>"
